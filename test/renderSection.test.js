@@ -1,5 +1,5 @@
 // IMPORT MODULES under test here:
- import { renderSection } from '../quests/questUtils.js';
+import { renderSection } from '../quests/questUtils.js';
 
 const test = QUnit.test;
 
