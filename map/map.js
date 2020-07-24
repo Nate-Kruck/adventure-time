@@ -1,12 +1,15 @@
 import allQuests from '../data.js';
 import { getUser } from '../userUtils.js';
+import loadProfile from '../common/user-profile.js';
+
+loadProfile();
 
 const user = getUser();
 
 if (user.hp <= 0) {
     alert('The GrimReaper found you');
     alert('Gold lost: ' + user.gold);
-    window.location('../index.html');
+    window.location = './index.html';
 }
 
 
@@ -27,6 +30,8 @@ for (let i = 0; i < allQuests.length; i++) {
 if (questsCompleted === allQuests.length) {
     alert('The battle has been won, you took' + user.gold, 'from the enemy');
 }
+
+
 
 for (let i = 0; i < allQuests.length; i++) {
     const quest = allQuests[i];

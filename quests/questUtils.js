@@ -21,13 +21,13 @@ export function renderSection(quest) {
         const choice = quest.choices[i];
 
         divLabel.textContent = choice.description;
-        const input = document.createElement('input');
+        const radio = document.createElement('input');
 
-        input.type = 'radio';
-        input.value = choice.id;
-        input.name = 'choices';
+        radio.type = 'radio';
+        radio.value = choice.id;
+        radio.name = 'choices';
 
-        label.append(divLabel, input);
+        label.append(divLabel, radio);
         form.append(label);
 
     }
@@ -56,7 +56,7 @@ export function renderSection(quest) {
         const resultPage = document.querySelector('#results');
         resultPage.textContent = results.result;
 
-        
+                
         const nextButton = document.querySelector('#next');
         nextButton.classList.remove('hidden');
 

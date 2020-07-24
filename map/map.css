@@ -2,3 +2,24 @@ section {
     padding: 0 auto;
     margin: 0 auto;
 }
+
+#invasion {
+    position: relative;
+    background-image: url("../assets/invasion-map.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: calc(90vw * 642 / 900);
+    margin: auto;
+    
+}
+
+header {
+    text-align: center;
+}
+
+#avatar {
+    width: 70px;
+    
+}
+
