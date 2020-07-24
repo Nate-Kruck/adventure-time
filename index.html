@@ -8,14 +8,44 @@
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/home.css">
-    <link rel="stylesheet" href="styles/style.css">
     <title>Document</title>
 </head>
 
 <body>
+    <form>
+        <p class="text-input">
+        <label for="name">
+            What's your name soldier?</label>
+            <input id="name" name="name" required>
+        </p>
+        <label>
+            Rifleman
+            <input type="radio" value="rifleman" name="class">
+            <img src="./assets/rifleman.jpg" width= "150px">
+        </label>
+        <label>
+            Light Assault
+            <input type="radio" value="light-assault" name="class">
+            <img src="./assets/light-assault.jpg" width="150px">
+        </label>
+        <label>
+            Scout
+            <input type="radio" value="scout" name="class">
+            <img src="./assets/scout.jpg" width="150px">
+        </label>
+        <label>
+            General
+            <input type="radio" value="leader" name="class">
+            <img src="./assets/general.jpg" width="150px">
+        </label><br>
+        <button class="button">Submit</button>
+    </form>
     
-    form goes here
     <script type="module" src="app.js"></script>
 </body>
+<footer>
+    <a href="https://www.freepik.com/free-photos-vectors/technology">Technology vector created by macrovector -
+        www.freepik.com</a>
+</footer>
 
 </html>
