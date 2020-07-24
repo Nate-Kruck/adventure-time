@@ -4,10 +4,6 @@
    License: none (public domain)
 */
 
-*{
-    box-sizing: border-box;
-}
-
 html, body {
     height: 100%;
     width: 100%;

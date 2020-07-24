@@ -136,7 +136,7 @@ const treasure = {
     }]
 };
 
-const quests = [
+const allQuests = [
     monsters, 
     treasure,
     dragon, {
@@ -179,4 +179,4 @@ const quests = [
     }
 ];
 
-export default quests;
+export default allQuests;
